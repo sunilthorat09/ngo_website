@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'letsmakeadifferance.urls'
+ROOT_URLCONF = 'letsmakeadifference.urls'
 
 TEMPLATES = [
     {
@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'letsmakeadifferance.wsgi.application'
+WSGI_APPLICATION = 'letsmakeadifference.wsgi.application'
 
 
 # Database
