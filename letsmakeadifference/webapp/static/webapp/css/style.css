@@ -1642,6 +1642,7 @@ footer.style-1 .footer-link li {
     color: #fff;
     padding: 0 2px;
     opacity: 0;
+    border-radius: 50%;
     text-align: center;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -1653,7 +1654,7 @@ footer.style-1 .footer-link li {
     opacity: 1;
     -webkit-animation: bounceIn;
     animation: bounceIn;
-    animation-duration: 1s;
+    animation-duration: s;
     -webkit-animation-duration: 1s;
 }
 

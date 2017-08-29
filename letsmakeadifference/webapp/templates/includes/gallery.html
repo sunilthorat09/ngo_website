@@ -1,0 +1,29 @@
+{% block content %}
+{% load staticfiles %}
+<script src="{% static 'webapp/js/lightbox-plus-jquery.min.js' %}"></script>
+<link rel="stylesheet" href="{% static 'webapp/css/lightbox.min.css' %}">
+
+<style>
+img {
+    width: 290px; /* Set a small width */
+    height: 250px; /* Set a small width */
+}
+
+/* Add a hover effect (blue shadow) */
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+</style>
+ <div class="row">
+                <div class="our-team owl-carousel owl-theme">
+                       <a class="example-image-link" href="{% static 'webapp/images/photos/1.jpg' %}" data-lightbox="example-set" data-title="Saraswati Anath Shikshan Ashram"><img class="example-image" src="{% static 'webapp/images/photos/1.jpg' %}" alt=""/></a>
+                       <a class="example-image-link" href="{% static 'webapp/images/photos/2.jpg' %}" data-lightbox="example-set" data-title="Saraswati Anath Shikshan Ashram"><img class="example-image" src="{% static 'webapp/images/photos/2.jpg' %}" alt=""/></a>
+                       <a class="example-image-link" href="{% static 'webapp/images/photos/3.jpg' %}" data-lightbox="example-set" data-title="Saraswati Anath Shikshan Ashram"><img class="example-image" src="{% static 'webapp/images/photos/3.jpg' %}" alt=""/></a>
+                       <a class="example-image-link" href="{% static 'webapp/images/photos/4.jpg' %}" data-lightbox="example-set" data-title="Saraswati Anath Shikshan Ashram"><img class="example-image" src="{% static 'webapp/images/photos/4.jpg' %}" alt=""/></a>
+                       <a class="example-image-link" href="{% static 'webapp/images/photos/5.jpg' %}" data-lightbox="example-set" data-title="Saraswati Anath Shikshan Ashram"><img class="example-image" src="{% static 'webapp/images/photos/5.jpg' %}" alt=""/></a>
+                       <a class="example-image-link" href="{% static 'webapp/images/photos/6.jpg' %}" data-lightbox="example-set" data-title="Indian School"><img class="example-image" src="{% static 'webapp/images/photos/6.jpg' %}" alt=""/></a>
+                </div>
+ </div>
+
+
+{% endblock %}
